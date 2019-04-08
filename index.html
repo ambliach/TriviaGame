@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Rutgers Trivia Game</title>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link href="https://fonts.googleapis.com/css?family=Courgette|Merienda|Playfair+Display+SC|Poiret+One" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+<body>
+    <header>
+      <img src="assets/images/background.png" alt="backgroundImg" width="75%">
+      <h1>Test your Rutgers University knowledge!</h1>
+    </header>
+    <div id="hidden">
+            <h1 class="center">Directions</h1>
+            <p>The Rutgers University Trivia Game</p>
+            <br>
+            <p>You will have 15 seconds to guess each question, answer as many questions correctly as you can!</p>
+            <button class="btn btn-secondary" id="start">Start</button>
+     </div>
+     <div class='container'>
+            <div id=timeLeft></div>
+            <div id=currentQuestion></div>
+            <div class='question'></div>
+            <div class='answerList'></div>
+            <div id=message></div>
+            <div id=correctedAnswer></div>
+            <div id=gif></div>
+            <div id=finalMessage></div>
+            <div id=correctAnswers></div>
+            <div id=incorrectAnswers></div>
+            <div id=unanswered></div>
+            <div id='startOverBtn'></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="assets/javascript/app.js"></script>
+  <footer>
+                <p>© 2019 - Andrew Bliach</p>
+  </footer>
+</body>
+</html>
